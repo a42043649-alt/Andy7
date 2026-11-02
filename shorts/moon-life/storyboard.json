@@ -1,0 +1,24 @@
+{
+  "output": "shorts/moon-life/moon-life.mp4",
+  "voiceover": null,
+  "music": null,
+  "music_volume": 0.5,
+  "scenes": [
+    {"duration": 3.5, "caption": "달에서 살면\n벌어지는 6가지", "media": "shorts/moon-life/bg_space.png",
+     "note": "AI: wide cinematic shot of a vast lunar colony dome, Earth hanging large in the black sky, photorealistic"},
+    {"duration": 4.5, "caption": "① 하루가\n지구의 한 달", "media": "shorts/moon-life/bg_surface.png",
+     "note": "AI: sun slowly grazing the lunar horizon, long shadows across gray craters, time-lapse feel"},
+    {"duration": 4, "caption": "② 몸무게가\n6분의 1로", "media": "shorts/moon-life/bg_surface.png",
+     "note": "AI: astronaut in a sleek future suit bouncing in a high slow-motion jump, low gravity"},
+    {"duration": 4, "caption": "③ 집은\n땅속 용암동굴에", "media": "shorts/moon-life/bg_space.png",
+     "note": "AI: habitation modules inside a lunar lava tube cave, warm interior lights, photorealistic"},
+    {"duration": 4, "caption": "④ 물은\n달 남극 얼음에서", "media": "shorts/moon-life/bg_surface.png",
+     "note": "AI: robotic rover mining water ice inside a dark polar crater, headlights glowing"},
+    {"duration": 4, "caption": "⑤ 창밖엔\n거대한 지구가", "media": "shorts/moon-life/bg_earth.png",
+     "note": "AI: view through a large dome window of an 'Earthrise', blue planet over gray regolith"},
+    {"duration": 4, "caption": "⑥ 가족과 통화엔\n1.3초의 틈", "media": "shorts/moon-life/bg_space.png",
+     "note": "AI: colonist making a holographic video call, slight glitch, lonely cozy interior"},
+    {"duration": 3, "caption": "당신이라면,\n달에 살래요?", "media": "shorts/moon-life/bg_earth.png",
+     "note": "AI: silhouette of a person looking up at Earth from the lunar surface, back view"}
+  ]
+}
