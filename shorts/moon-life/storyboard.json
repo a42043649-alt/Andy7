@@ -4,21 +4,37 @@
   "music": null,
   "music_volume": 0.5,
   "scenes": [
-    {"duration": 3.5, "caption": "달에서 살면\n벌어지는 6가지", "media": "shorts/moon-life/bg_space.png",
-     "note": "AI: wide cinematic shot of a vast lunar colony dome, Earth hanging large in the black sky, photorealistic"},
-    {"duration": 4.5, "caption": "① 하루가\n지구의 한 달", "media": "shorts/moon-life/bg_surface.png",
-     "note": "AI: sun slowly grazing the lunar horizon, long shadows across gray craters, time-lapse feel"},
-    {"duration": 4, "caption": "② 몸무게가\n6분의 1로", "media": "shorts/moon-life/bg_surface.png",
-     "note": "AI: astronaut in a sleek future suit bouncing in a high slow-motion jump, low gravity"},
-    {"duration": 4, "caption": "③ 집은\n땅속 용암동굴에", "media": "shorts/moon-life/bg_space.png",
-     "note": "AI: habitation modules inside a lunar lava tube cave, warm interior lights, photorealistic"},
-    {"duration": 4, "caption": "④ 물은\n달 남극 얼음에서", "media": "shorts/moon-life/bg_surface.png",
-     "note": "AI: robotic rover mining water ice inside a dark polar crater, headlights glowing"},
-    {"duration": 4, "caption": "⑤ 창밖엔\n거대한 지구가", "media": "shorts/moon-life/bg_earth.png",
-     "note": "AI: view through a large dome window of an 'Earthrise', blue planet over gray regolith"},
-    {"duration": 4, "caption": "⑥ 가족과 통화엔\n1.3초의 틈", "media": "shorts/moon-life/bg_space.png",
-     "note": "AI: colonist making a holographic video call, slight glitch, lonely cozy interior"},
-    {"duration": 3, "caption": "당신이라면,\n달에 살래요?", "media": "shorts/moon-life/bg_earth.png",
-     "note": "AI: silhouette of a person looking up at Earth from the lunar surface, back view"}
+    {"duration": 6, "media": "shorts/moon-life/src/colony.mp4",
+     "captions": [
+       {"text": "2060년,", "start": 0, "end": 2},
+       {"text": "인류의 새 주소는", "start": 2, "end": 4},
+       {"text": "'달'", "start": 4, "end": 6}
+     ],
+     "note": "훅 — 달 기지 와이드"},
+    {"duration": 6, "media": "shorts/moon-life/src/sun.mp4",
+     "captions": [
+       {"text": "① 달의 하루는", "start": 0, "end": 3},
+       {"text": "지구의 한 달이에요", "start": 3, "end": 6}
+     ],
+     "note": "태양이 지평선을 스치며 긴 그림자"},
+    {"duration": 6, "media": "shorts/moon-life/src/cave.mp4",
+     "captions": [
+       {"text": "② 집은", "start": 0, "end": 3},
+       {"text": "땅속 용암동굴에", "start": 3, "end": 6}
+     ],
+     "note": "용암동굴 안 거주 모듈"},
+    {"duration": 6, "media": "shorts/moon-life/src/rover.mp4",
+     "captions": [
+       {"text": "③ 마실 물은", "start": 0, "end": 3},
+       {"text": "달 남극 얼음에서", "start": 3, "end": 6}
+     ],
+     "note": "로버가 분화구 얼음 채굴"},
+    {"duration": 7, "media": "shorts/moon-life/src/person.mp4",
+     "captions": [
+       {"text": "당신이라면,", "start": 0, "end": 2.5},
+       {"text": "달에 살아볼래요?", "start": 2.5, "end": 5},
+       {"text": "▶ 2편은 팔로우에서", "start": 5, "end": 7}
+     ],
+     "note": "지구를 올려다보는 뒷모습 — 마무리+CTA"}
   ]
 }
