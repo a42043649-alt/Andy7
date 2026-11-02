@@ -1,8 +1,8 @@
 {
   "output": "shorts/moon-life/moon-life.mp4",
   "voiceover": null,
-  "music": null,
-  "music_volume": 0.5,
+  "music": "shorts/moon-life/src/bgm.mp3",
+  "music_volume": 0.6,
   "scenes": [
     {"duration": 6, "media": "shorts/moon-life/src/colony.mp4",
      "captions": [

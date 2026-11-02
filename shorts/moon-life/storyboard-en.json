@@ -1,0 +1,35 @@
+{
+  "output": "shorts/moon-life/moon-life-en.mp4",
+  "voiceover": null,
+  "music": "shorts/moon-life/src/bgm.mp3",
+  "music_volume": 0.6,
+  "scenes": [
+    {"duration": 6, "media": "shorts/moon-life/src/colony.mp4",
+     "captions": [
+       {"text": "By 2060,", "start": 0, "end": 2},
+       {"text": "humanity's new address", "start": 2, "end": 4},
+       {"text": "is the Moon", "start": 4, "end": 6}
+     ]},
+    {"duration": 6, "media": "shorts/moon-life/src/sun.mp4",
+     "captions": [
+       {"text": "① One day on the Moon", "start": 0, "end": 3},
+       {"text": "lasts a whole month", "start": 3, "end": 6}
+     ]},
+    {"duration": 6, "media": "shorts/moon-life/src/cave.mp4",
+     "captions": [
+       {"text": "② Homes are built", "start": 0, "end": 3},
+       {"text": "inside lava tubes", "start": 3, "end": 6}
+     ]},
+    {"duration": 6, "media": "shorts/moon-life/src/rover.mp4",
+     "captions": [
+       {"text": "③ Your water comes", "start": 0, "end": 3},
+       {"text": "from polar ice", "start": 3, "end": 6}
+     ]},
+    {"duration": 7, "media": "shorts/moon-life/src/person.mp4",
+     "captions": [
+       {"text": "Would you", "start": 0, "end": 2.5},
+       {"text": "live on the Moon?", "start": 2.5, "end": 5},
+       {"text": "▶ Follow for part 2", "start": 5, "end": 7}
+     ]}
+  ]
+}
