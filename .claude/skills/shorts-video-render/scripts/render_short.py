@@ -83,7 +83,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         for it in items or []:
             s = t + float(it.get("start", 0))
             e = t + min(float(it.get("end", d)), d)
-            lines.append(f"Dialogue: 0,{ass_time(s)},{ass_time(e)},Default,,0,0,0,,{ass_escape(it['text'])}")
+            ov = ""
+            if it.get("size"):
+                ov += f"\\fs{int(it['size'])}"
+            if it.get("align") == "center":
+                ov += "\\an5"      # vertical+horizontal center (ignores MarginV)
+            prefix = f"{{{ov}}}" if ov else ""
+            lines.append(f"Dialogue: 0,{ass_time(s)},{ass_time(e)},Default,,0,0,0,,{prefix}{ass_escape(it['text'])}")
         t += d
     return head + "\n".join(lines) + "\n"
 

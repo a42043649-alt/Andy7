@@ -26,7 +26,7 @@
 | `scenes[].duration` | 예 | 초 단위. 권장 1.5~4초 |
 | `scenes[].media` | 아니오 | 이미지(jpg/png/webp)는 천천히 확대되는 효과, 영상은 중앙 크롭 후 길이에 맞게 잘리거나 반복. 없으면 단색 배경 |
 | `scenes[].caption` | 아니오 | 장면 내내 표시. `\n`으로 줄바꿈 |
-| `scenes[].captions` | 아니오 | 장면 안에서 나눠 표시할 때 `{text,start,end}` 목록 (장면 시작 기준 초) |
+| `scenes[].captions` | 아니오 | 장면 안에서 나눠 표시할 때 `{text,start,end}` 목록 (장면 시작 기준 초). 각 항목에 `"size": <px>`(글자 크기, 기본 68)와 `"align": "center"`(화면 정중앙; 생략 시 하단)를 더할 수 있다 — 큰 훅 자막·핵심 자막용 |
 | `scenes[].background` | 아니오 | 미디어 없을 때 배경색 `#RRGGBB` |
 | `scenes[].note` | 아니오 | 사람용 메모. 렌더에 영향 없음 |
 
