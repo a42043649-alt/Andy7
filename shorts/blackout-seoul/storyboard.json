@@ -1,0 +1,40 @@
+{
+  "output": "shorts/blackout-seoul/blackout-seoul.mp4",
+  "voiceover": null,
+  "music": null,
+  "music_volume": 0.6,
+  "scenes": [
+    {"duration": 4, "media": "shorts/blackout-seoul/src/01_dusk.mp4",
+     "captions": [
+       {"text": "서울이 3일간\n멈춘다면?", "start": 0, "end": 2.5, "size": 100, "align": "center"},
+       {"text": "폭염 속, 전력망이 한계에 다다릅니다", "start": 2.5, "end": 4}
+     ]},
+    {"duration": 5, "media": "shorts/blackout-seoul/src/02_blackout.mp4",
+     "captions": [
+       {"text": "정전 시작", "start": 0, "end": 1.5, "size": 92, "align": "center"},
+       {"text": "오후 6시, 강남부터 불이 꺼집니다", "start": 1.5, "end": 5}
+     ]},
+    {"duration": 5, "media": "shorts/blackout-seoul/src/03_stop.mp4",
+     "captions": [
+       {"text": "신호등이 꺼지고,\n지하철이 멈춥니다", "start": 0, "end": 5}
+     ]},
+    {"duration": 5, "media": "shorts/blackout-seoul/src/04_darkwave.mp4",
+     "captions": [
+       {"text": "한 시간 만에\n서울 절반이 어둠에", "start": 0, "end": 5}
+     ]},
+    {"duration": 5, "media": "shorts/blackout-seoul/src/05_people.mp4",
+     "captions": [
+       {"text": "사람들은 촛불과\n손전등에 의지합니다", "start": 0, "end": 5}
+     ]},
+    {"duration": 5, "media": "shorts/blackout-seoul/src/06_stars.mp4",
+     "captions": [
+       {"text": "그리고, 별", "start": 0, "end": 1.5, "size": 92, "align": "center"},
+       {"text": "밤이 되자 도심에서 별이 보입니다", "start": 1.5, "end": 5}
+     ]},
+    {"duration": 4, "media": "shorts/blackout-seoul/src/07_restore.mp4",
+     "captions": [
+       {"text": "사흘 뒤, 도시에 불이 돌아옵니다", "start": 0, "end": 2.5},
+       {"text": "다음 편: 서울에 물이 끊긴다면?\n▶ 구독", "start": 2.5, "end": 4}
+     ]}
+  ]
+}
